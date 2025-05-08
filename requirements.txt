@@ -1,4 +1,5 @@
-streamlit
-langchain
+streamlit>=1.39.0
+openai>=1.42.0
+langchain>=0.2.20
 langchain-openai
 langchain-community
