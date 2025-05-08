@@ -6,7 +6,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.prompts import PromptTemplate
 
 # set the openAPI key
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ['OPENAI_API_KEY'] = st.secrets['secrets']['OPENAI_API_KEY']
 
 # configure the streamlit pg
 st.set_page_config(page_title="Share a Meal Chatbot", page_icon="🤝")
